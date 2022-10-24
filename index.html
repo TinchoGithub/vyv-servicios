@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Somos una empresa en pleno desarrollo, brindamos servicios de arenado, revestimiento y mantenimiento en planta.">
+    <meta name="keywords" content="arenado, revestimiento, mantenimirnto en planta, gasoducto">
+    <meta name="author" content="Martín Perez"> 
+    <title>V & V</title>
+    <link rel="shortcut icon" href="./img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/c4b76b6bec.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</head>
+<body>
+    <header>
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#nosotros"><span class="text-warning">V & V</span> Servicios</a>
+    
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#nosotros">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <div class="textos">
+            <h1 class="titulo"><b>V & V Servicios</b></h1>
+            <h3 class="subtitulo"><b>De Julio Vizcarra y Roberto Vera</b></h3>
+        </div>
+        
+    </header>
+    <main>
+        <section class="quienes somos" id="nosotros">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Sobre Nosotros</h2>
+                <h3 class="slogan">Somos una empresa en pleno desarrollo</h3>
+                <p class="parrafo"><b>Somos una empresa que está naciendo formada por profesionales con una basta experiencia en servicios para compañías vinculadas a la producción, transporte y procesos de hidrocarburos, energía, minería e infraestructura, entre otras.</b></p>
+                <p class="parrafo"><b>Nuestro objetivo es brindar a todos nuestros clientes un servicio con personal altamente especializados que les permitan concebir, planificar y ejecutar grandes proyectos en todas sus etapas hasta su puesta en marcha.</b></p>
+                <br>
+                
+            </div>
+        </section>
+        <section class="galeria">
+            <div class="sesgoarriba"></div>
+            <div class="imagenes none">
+                <img src="./img/img-1.jpg" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="./img/img-2.png" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="./img/portada.png" alt="">
+                <div class="encima">
+                    <h2>V & V </h2>
+                    <div></div>
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="./img/img-3.png" alt="">
+
+            </div>
+            <div class="imagenes none">
+                <img src="./img/img-4.png" alt="">
+            </div>
+            <div class="sesgoabajo"></div>
+        </section>
+
+
+        <section class="serivicios">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros" id="servicios">Nuestros Servicios</h2><br>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./img/arenado.jpg" alt="Arenado"> <br>
+                        <h4><b>Arenado</b></h4><br>
+                        <p><b>Este proceso consiste en la limpieza de cualquier superficie, mediante chorro de arena a presión. Permite quitar todo cuerpo extraño adherido a la superficie a tratar (pinturas, óxidos, escamas de laminación, etc.)</b></p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/revestimiento.jpg" alt="Revestimiento"> <br>
+                        <h4><b>Revestimiento</b></h4><br>
+                        <p><b>Abarca Esmalte Epoxi, Poliuretano, colocación de mantas termocontraibles, protección catódica y soldaduras cuproaluminotérmicas.</b></p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/mantenimiento.jpg" alt="Mantenimiento en planta"> <br><br>
+                        <h4><b>Mantenimiento <br>en Planta</b></h4><br>
+                        <p><b>Electricidad, plomería, herrería y albañilería <br>
+                            Parquización, desmalezamientos <br>
+                            Cartelería <br>
+                            Cercos perimetrales <br> 
+                            Cat</b</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="contenedor" id="contacto">
+            <h2 class="titulo-footer"><b>Contacto</b></h2>
+            <h3 class="subtitulo-footer">A la brevedad nos comunicaremos contigo</h3>
+            
+            <div class="footer">
+                <form action="https://formsubmit.co/jvyrvservicios@gmail.com" method="POST" id="formulario">
+                    
+                    <input type="text" name="Nombre" id="nombre" placeholder="Ingrese su nombre..." minlength="3" maxlength="60">
+                    <input type="email" name="Correo" id="correo" placeholder="Ingrese su email..." maxlength="30">
+                    <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje..." minlength="10" maxlength="301"></textarea>
+                    <input class="btn-enviar" type="submit" value="Enviar">
+                    <input type="hidden" name="_next" value="https://tinchogithub.github.io/vyv-servicios">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                </form>
+                
+            </div>
+        </div>
+ 
+    </main>
+
+    
+    <footer>
+
+        <div class="footer">
+            <p>Desarrollado por Martín Perez</p>
+            <p>Copyright © 2022 V & V</p>
+            <div class="footer__iconos">
+                <a href="https://www.facebook.com/" target="_blank" class="iconos"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" class="iconos"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="http://www.instagram.com/" target="_blank" class="iconos"><i class="fa-brands fa-instagram" ></i></a>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/validacion.js"></script>
+    
+</body>
+
+</html>
